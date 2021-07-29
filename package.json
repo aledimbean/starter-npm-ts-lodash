@@ -1,0 +1,27 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Starter node+TypeScript+lodash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aledimbean/starter-npm-ts-lodash.git"
+  },
+  "keywords": [
+    "npm",
+    "typescript"
+  ],
+  "author": "Alexandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aledimbean/starter-npm-ts-lodash/issues"
+  },
+  "homepage": "https://github.com/aledimbean/starter-npm-ts-lodash#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

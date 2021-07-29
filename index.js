@@ -1,0 +1,2 @@
+const someVariable = 0;
+ 
