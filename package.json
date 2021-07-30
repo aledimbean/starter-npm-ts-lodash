@@ -4,10 +4,10 @@
   "description": "Starter node+TypeScript+lodash",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
     "prettier": "prettier --config .prettierrc --write",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "jasmine": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -24,12 +24,17 @@
   },
   "homepage": "https://github.com/aledimbean/starter-npm-ts-lodash#readme",
   "devDependencies": {
+    "@types/jasmine": "^3.8.2",
     "@types/lodash": "^4.14.171",
+    "@types/node": "^16.4.7",
     "@typescript-eslint/parser": "^4.28.5",
     "prettier": "^2.3.2",
+    "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "jasmine": "^3.8.0",
+    "jasmine-spec-reporter": "^7.0.0",
     "lodash": "^4.17.21"
   }
 }
