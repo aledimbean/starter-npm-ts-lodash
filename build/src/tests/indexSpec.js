@@ -7,3 +7,9 @@ var index_1 = __importDefault(require("../index"));
 it('expect myFunc(5) to equal 25', function () {
     expect(index_1.default(5)).toEqual(25);
 });
+describe("suite desctiption", function () {
+    it("describe the spec", function () {
+        var myVar = true;
+        expect(myVar).toBe(true);
+    });
+});
